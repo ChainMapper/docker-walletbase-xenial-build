@@ -7,4 +7,4 @@ RUN apt-get update \
     libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev \
     libboost-test-dev libboost-thread-dev libgmp3-dev \
     && apt-get -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl \
-    && apt-get install -y libcap-dev libseccomp-dev
+    && apt-get install -y libcap-dev libseccomp-dev libzmq3-dev
